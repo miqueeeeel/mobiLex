@@ -1,6 +1,7 @@
 
 "use client"; // Required for react-hook-form
 
+import Link from 'next/link'; // Added import
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
