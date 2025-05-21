@@ -170,7 +170,7 @@ export default function ContactPage() {
                      <MapPin className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                      <div>
                          <h3 className="font-semibold">Dirección</h3>
-                         <p className="text-muted-foreground">Calle Falsa 123, Planta 4<br/>28001 Madrid, España</p>
+                         <p className="text-muted-foreground">Anabel Segura<br/>1128108 Alcobendas, Madrid</p>
                          <Button variant="link" className="p-0 h-auto text-primary" asChild>
                             <Link href="/map">Ver en el mapa</Link>
                          </Button>
