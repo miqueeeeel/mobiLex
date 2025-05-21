@@ -79,7 +79,7 @@ export default function MapPage() {
             <CardContent className="space-y-4">
                 <div>
                     <h3 className="font-semibold">Dirección</h3>
-                    <p className="text-muted-foreground">Calle Falsa 123, Planta 4<br/>28001 Madrid, España</p>
+                    <p className="text-muted-foreground">Anabel Segura<br/>1128108 Alcobendas, Madrid</p>
                 </div>
                  <div>
                      <h3 className="font-semibold">Horario de Atención</h3>
@@ -89,7 +89,7 @@ export default function MapPage() {
                  <div>
                      <h3 className="font-semibold">Cómo Llegar</h3>
                      <p className="text-muted-foreground">
-                         Accesible mediante Metro (Líneas 1, 2, 3 - Sol) y múltiples líneas de autobús. Parking público cercano disponible.
+                         Accesible mediante Metro y múltiples líneas de autobús. Parking disponible.
                      </p>
                  </div>
                  <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" disabled={isLoading || !!error}>
