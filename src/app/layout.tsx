@@ -29,6 +29,7 @@ export default function RootLayout({
           "min-h-screen bg-background font-sans antialiased",
           inter.variable
         )}
+        suppressHydrationWarning // Added to potentially mitigate hydration mismatches on the body tag
       >
         <div className="relative flex min-h-dvh flex-col bg-background">
           <Header />
