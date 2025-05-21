@@ -25,7 +25,7 @@ export default function Home() {
                 <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
                   <Link href="/contact">Contactar Ahora</Link>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="text-secondary-foreground border-secondary-foreground hover:bg-background hover:text-foreground">
+                <Button asChild size="lg" className="bg-blue-900 hover:bg-amber-800 text-secondary-foreground">
                    <Link href="/map">Nuestra Ubicación</Link>
                 </Button>
               </div>
